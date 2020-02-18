@@ -1,5 +1,10 @@
 {
   "name": "ARTIC Measles virus protocol v1.0",
   "description": "Amplicon based sequencing of Measles virus.",
-  "url": "http://artic.network/"
+  "url": "http://artic.network/",
+  "annotationOptions": {
+    "minimum_identity": "50",
+    "reference_fields":"display_name[display_name]",
+    "barcode_set":"native"
+    }
 }
